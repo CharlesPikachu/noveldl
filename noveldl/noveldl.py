@@ -122,7 +122,7 @@ class noveldl():
 @click.option('-p', '--proxies', default='{}', help='设置的代理')
 @click.option('-s', '--savedir', default='novels', help='下载的小说的保存路径')
 @click.option('-c', '--count', default='5', help='在各个平台搜索时的小说搜索数量')
-@click.option('-t', '--targets', default='zw81,gebiqu', help='指定小说搜索下载的平台, 例如"zw81,gebiqu"')
+@click.option('-t', '--targets', default=None, help='指定小说搜索下载的平台, 例如"zw81,gebiqu"')
 def noveldlcmd(keyword, proxies, savedir, count, targets):
     config = {
         'proxies': json.loads(proxies),
