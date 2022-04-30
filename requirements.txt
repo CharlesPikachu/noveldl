@@ -4,3 +4,4 @@ user_agent
 lxml
 click
 prettytable
+beautifulsoup4

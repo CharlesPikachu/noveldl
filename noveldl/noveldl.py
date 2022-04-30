@@ -47,7 +47,7 @@ class noveldl():
             # 输入关键字
             user_input = self.dealInput('请输入小说搜索的关键词: ')
             # 搜索小说并打印搜索结果
-            target_srcs = ['zw81', 'gebiqu'] if target_srcs is None else target_srcs
+            target_srcs = ['zw81', 'gebiqu', 'xbiquge'] if target_srcs is None else target_srcs
             search_results = self.search(user_input, target_srcs)
             title = ['序号', '作者', '小说名', '来源']
             items, records, idx = [], {}, 0
@@ -91,7 +91,7 @@ class noveldl():
     '''初始化所有支持的搜索/下载源'''
     def initializeAllSources(self):
         supported_sources = {
-            'zw81': Zw81Novel, 'gebiqu': GeBiquNovel,
+            'zw81': Zw81Novel, 'gebiqu': GeBiquNovel, 'xbiquge': XbiqugeNovel
         }
         for key, value in supported_sources.items():
             setattr(self, key, value(copy.deepcopy(self.config), self.logging))
@@ -130,7 +130,7 @@ def noveldlcmd(keyword, proxies, savedir, count, targets):
         'search_size_per_source': int(count),
     }
     target_srcs = [
-        'zw81', 'gebiqu'
+        'zw81', 'gebiqu', 'xbiquge'
     ] if targets is None else [src.strip() for src in targets.split(',')]
     dl_client = noveldl(config=config)
     if keyword is None:

@@ -41,7 +41,10 @@ class Downloader():
                 if response.status_code != 200: 
                     self.logger_handle(f"无法下载章节 >>>> {chapter['title']}, 章节链接 >>>> {chapter['download_url']}")
                     continue
-                html = etree.HTML(response.content.decode('utf-8'))
+                try:
+                    html = etree.HTML(response.content.decode('utf-8'))
+                except:
+                    html = etree.HTML(response.text)
                 lines = html.xpath('//div[@id="content"]/text()')
                 for line_idx, content in enumerate(lines):
                     content = content.replace(u'\x20', u'\n')

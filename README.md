@@ -29,6 +29,7 @@ You can star this repository to keep track of the project if it's helpful for yo
 |  :----:                             |  :----:          |   :----:           |  :----:              |
 |  [zw81](https://www.81zw.com/)      |  八一中文网      |   ✓                |  ✓                   |
 |  [gebiqu](https://www.gebiqu.com/)  |  阁笔趣          |   ✓                |  ✓                   |
+|  [xbiquge](https://www.xbiquge.so/) |  笔趣阁          |   ✓                |  ✓                   |
 
 
 # Install

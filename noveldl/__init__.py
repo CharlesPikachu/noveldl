@@ -5,7 +5,7 @@ __description__ = 'NovelDL: Search and download novels from some specific websit
 '''url'''
 __url__ = 'https://github.com/CharlesPikachu/noveldl'
 '''version'''
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 '''author'''
 __author__ = 'Charles'
 '''email'''

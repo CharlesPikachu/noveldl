@@ -29,7 +29,7 @@ class BaseNovel():
         for novel_info in novel_infos:
             novel_info = self.parse(novel_info)
             self.logger_handle('正在从%s下载 >>>> %s' % (self.source.upper(), novel_info['title']))
-            task = Downloader(novel_info, self.session)
+            task = Downloader(novel_info, self.session, self.logger_handle)
             if ('chapters' in novel_info) and task.start():
                 self.logger_handle('成功从%s下载到了 >>>> %s' % (self.source.upper(), novel_info['title']))
             else:
