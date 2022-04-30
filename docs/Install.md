@@ -12,7 +12,7 @@
 在终端运行如下命令即可(请保证python在环境变量中):
 
 ```sh
-pip install noveldl --upgrade
+pip install pynoveldl --upgrade
 ```
 
 
