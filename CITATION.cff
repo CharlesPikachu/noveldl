@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - name: "Zhenchao Jin"
+title: "NovelDL: Search and download novels from some specific websites"
+date-released: 2022-04-30
+url: "https://github.com/CharlesPikachu/noveldl"
+license: Apache-2.0

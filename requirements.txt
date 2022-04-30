@@ -1,0 +1,6 @@
+requests
+alive-progress
+user_agent
+lxml
+click
+prettytable
