@@ -4,11 +4,11 @@
 <br />
 
 [![docs](https://img.shields.io/badge/docs-latest-blue)](https://noveldl.readthedocs.io/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/noveldl)](https://pypi.org/project/noveldl/)
-[![PyPI](https://img.shields.io/pypi/v/noveldl)](https://pypi.org/project/noveldl)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pynoveldl)](https://pypi.org/project/pynoveldl/)
+[![PyPI](https://img.shields.io/pypi/v/pynoveldl)](https://pypi.org/project/pynoveldl)
 [![license](https://img.shields.io/github/license/CharlesPikachu/noveldl.svg)](https://github.com/CharlesPikachu/noveldl/blob/master/LICENSE)
-[![PyPI - Downloads](https://pepy.tech/badge/noveldl)](https://pypi.org/project/noveldl/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/noveldl?style=flat-square)](https://pypi.org/project/noveldl/)
+[![PyPI - Downloads](https://pepy.tech/badge/pynoveldl)](https://pypi.org/project/pynoveldl/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pynoveldl?style=flat-square)](https://pypi.org/project/pynoveldl/)
 [![issue resolution](https://isitmaintained.com/badge/resolution/CharlesPikachu/noveldl.svg)](https://github.com/CharlesPikachu/noveldl/issues)
 [![open issues](https://isitmaintained.com/badge/open/CharlesPikachu/noveldl.svg)](https://github.com/CharlesPikachu/noveldl/issues)
 
@@ -36,7 +36,7 @@ You can star this repository to keep track of the project if it's helpful for yo
 #### Pip install
 
 ```
-run "pip install noveldl"
+run "pip install pynoveldl"
 ```
 
 #### Source code install

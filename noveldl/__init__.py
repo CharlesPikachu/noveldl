@@ -1,5 +1,5 @@
 '''title'''
-__title__ = 'noveldl'
+__title__ = 'pynoveldl'
 '''description'''
 __description__ = 'NovelDL: Search and download novels from some specific websites'
 '''url'''
