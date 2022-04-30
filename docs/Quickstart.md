@@ -31,7 +31,16 @@ run函数支持的参数如下:
 pip安装之后, 环境变量中会自动生成noveldl.exe文件, 只需要在终端直接输入noveldl即可调用, 使用方式如下:
 
 ```sh
+Usage: noveldl [OPTIONS]
 
+Options:
+  --version           Show the version and exit.
+  -k, --keyword TEXT  想要搜索下载的小说关键字, 若不指定, 则进入noveldl终端版
+  -p, --proxies TEXT  设置的代理
+  -s, --savedir TEXT  下载的小说的保存路径
+  -c, --count TEXT    在各个平台搜索时的小说搜索数量
+  -t, --targets TEXT  指定小说搜索下载的平台, 例如"zw81,gebiqu"
+  --help              Show this message and exit.
 ```
 
 例如:
